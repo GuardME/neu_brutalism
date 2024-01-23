@@ -16,10 +16,10 @@ const Footer = (props: Props) => {
         </div>
       </div>
       <div className='flex'>
-        <a href='https://github.com' target="_blank" className='mr-3'>
+        <a href='https://github.com/GuardME' target="_blank" className='mr-3'>
           <Image src={githubIcon} alt="github" width={32} height={32} />
         </a>
-        <a href='https://twitter.com' target="_blank">
+        <a href='https://twitter.com/JonggunPar23970' target="_blank">
           <Image src={twitterIcon} alt="twitter" width={32} height={32} />
         </a>
       </div>

@@ -5,12 +5,12 @@ type Props = {}
 const calloutsection = (props: Props) => {
 
     return (
-        <div className='border-t-2 border-b-2 mt-12 bg-indigo-400 p-8'>
+        <div className='border-t-2 border-b-2 mt-12 bg-sky-800 p-5'>
           <div className='grid grid-cols-12 container'>
             <div className="col-span-8 flex flex-col place-self-center">
-                <h2 className='semi-bold text-4xl mb-5'>Stay in the Know</h2>
-                <p className="max-w-2xl">
-                Stay up-to-date with the latest tech news and announcements by reading our curated articles, ranging from bite-sized pieces to in-depth features. Perfect for busy users who want to stay informed on the go and for those who prefer to dive deep into a topic.
+                <h2 className='semi-bold text-4xl mb-5'>Stay with We</h2>
+                <p className="max-w-4xl">
+                Stay up-to-date with the latest tech news and announcements by reading our curated articles, ranging from bite-sized pieces to in-depth features.
                 </p>
                 <div className='mt-4'>
                     <input type="email" name="email" id="email" placeholder='Enter your email' className='border-2 rounded-full rounded-r-none py-3 px-4 bg-gray-200 text-gray-800 outline-none placeholder-gray-500 focus:bg-gray-100 flex-1 p-2' />
